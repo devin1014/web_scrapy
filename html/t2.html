@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>已签合同列表</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Cache-Control" content="no-store"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <script type="text/javascript" nonce="605587bdc0d044b18c06e437986"
+            src="//local.adguard.org?ts=1629180041648&amp;type=content-script&amp;dmn=ysf.fangdi.com.cn:6001&amp;app=com.google.Chrome&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"></script>
+    <script type="text/javascript" src="/SHFirstHouse/js/application.js"></script>
+    <script type="text/javascript">
+        function contractPrint() {
+            var val = findSelectID();
+            if (val == '') {
+                alert("请先选择！");
+                return;
+            }
+
+            window.open("/SHFirstHouse/inner/ContractPdf/doSearchText.action?contractID=" + val);
+        }
+
+        //判断浏览器是否安装pdf插件
+        function isPDFPluginInstall() {
+            if (!isIE()) { //ie 浏览器 和  非ie浏览器支持
+                // not ie
+                if (navigator.plugins && navigator.plugins.length) // / Adobe Reader | Adobe PDF | Acrobat | Chrome PDF Viewer
+                    for (var i = 0; i < navigator.plugins.length; i++) {
+                        var plugin = navigator.plugins[i].name;
+                        console.log(plugin);
+                        if (plugin == 'Adobe Reader' || plugin == 'Adobe PDF' || plugin == 'Acrobat' || plugin == 'Chrome PDF Viewer') return true;
+                    }
+                return false;
+            } else {
+                // ie
+                var isInstalled = false;
+                var version = null;
+
+                var control = null;
+                try {
+                    control = new ActiveXObject('AcroPDF.PDF');
+                } catch (e) {
+                }
+                if (!control) {
+                    try {
+                        control = new ActiveXObject('PDF.PdfCtrl');
+                    } catch (e) {
+                    }
+                }
+                if (!control) {
+                    try {
+                        control = new ActiveXObject('Adobe Acrobat');
+                    } catch (e) {
+                    }
+                }
+
+                if (!control) {
+                    try {
+                        control = new ActiveXObject('Adobe PDF Plug-in');
+                    } catch (e) {
+                    }
+                }
+                if (control) {
+                    isInstalled = true;
+                    version = control.GetVersions().split(',');
+                    version = version[0].split('=');
+                    version = parseFloat(version[1]);
+                    return isInstalled;
+                }
+            }
+        }
+
+        function isIE() { //ie    支持到ie11
+            if (!!window.ActiveXObject || "ActiveXObject" in window)
+                return true;
+            else
+                return false;
+        }
+
+        function doContractEdit(contractID, type) {
+            parent.window.location = "/SHFirstHouse/outer/signContractmanage/createContract.action?contractID=" + contractID + "&type=" + type;
+        }
+
+        function registerPrint() {
+            var val = findSelectID();
+            if (val == '') {
+                alert("请先选择！");
+                return;
+            }
+            window.open("/SHFirstHouse/inner/contractquery/registerPrint.action?contractID=" + val);
+
+        }
+
+        //获取选择ID
+        function findSelectID() {
+            var selID = "";
+            var tempIDS = document.getElementsByName("selContractID");
+            var sel = 0;
+            for (var i = 0; i < tempIDS.length; i++) {
+                if (tempIDS[i].checked) {
+                    sel += 1;
+                    //alert(pays[i].value);
+                    selID = tempIDS[i].value;
+                }
+            }
+            if (sel != 1) {
+                return "";
+            } else {
+                return selID;
+            }
+            alert(selID);
+        }
+
+        function viewEarnest() {
+            var val = findSelectID();
+            if (val == '') {
+                alert("请先选择！");
+                return;
+            }
+            window.open("/SHFirstHouse/inner/ContractPdf/viewEarnestContract.action?contractID=" + val);
+        }
+
+        parent.enableButton();
+    </script>
+</head>
+<body id="body-layout" class="easyui-layout" style="margin-right:1px;margin-left:1px;">
+<div id="p" class="easyui-panel" title=" " style="width:95%;height:95%;background:#fafafa;"
+     data-options="iconCls:'icon-collapse',fit:true,noheader:true">
+    <form name="tableForm" id="tableForm" method="post" action="">
+        <input type="hidden" name="contractID" value=""/>
+        <input type="hidden" name="type" value=""/>
+        <input type="hidden" name="projectName" value="5140"/>
+        <input type="hidden" name="buyer" value=""/>
+        <input type="hidden" name="startDate" value=""/>
+        <input type="hidden" name="overDate" value=""/>
+        <input type="hidden" name="startCode" value=""/>
+        <input type="hidden" name="status" value=""/>
+        <input type="hidden" name="district" value="-999"/>
+        <input type="hidden" name="road" value=""/>
+        <input type="hidden" name="alley" value=""/>
+        <input type="hidden" name="buildingNumber" value=""/>
+        <input type="hidden" name="cell" value=""/>
+
+        <table class='default_tableCss'>
+            <tr class='default_row_tr'>
+                <th>单选</th>
+                <th>合同号</th>
+                <th>合同类型</th>
+                <th>坐落部位</th>
+                <th>买方</th>
+                <th>面积</th>
+                <th>金额</th>
+                <th>确认时间</th>
+                <th>剩余有效期天数</th>
+                <th>状态</th>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100176590'></td>
+                <td>202100176590</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位(人防)B086室
+                </td>
+                <td>李翔宇</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-06-21</td>
+                <td></td>
+                <td>已签</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100173970'></td>
+                <td>202100173970</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位(人防)B107室
+                </td>
+                <td>余蕾</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-06-17</td>
+                <td></td>
+                <td>已签</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100169935'></td>
+                <td>202100169935</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位C181室
+                </td>
+                <td>王葵</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-06-13</td>
+                <td></td>
+                <td>已登记</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100162157'></td>
+                <td>202100162157</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位C140室
+                </td>
+                <td>乐俊东</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-06-13</td>
+                <td></td>
+                <td>已签</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100156692'></td>
+                <td>202100156692</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位D086室
+                </td>
+                <td>张影</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-06-04</td>
+                <td></td>
+                <td>已登记</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100145173'></td>
+                <td>202100145173</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位B247室
+                </td>
+                <td>叶利生</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-05-25</td>
+                <td></td>
+                <td>已签</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100145170'></td>
+                <td>202100145170</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位D001室
+                </td>
+                <td>周辰罡</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-05-25</td>
+                <td></td>
+                <td>已登记</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100141267'></td>
+                <td>202100141267</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位(人防)B093室
+                </td>
+                <td>吴慧</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-05-20</td>
+                <td></td>
+                <td>已登记</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100133995'></td>
+                <td>202100133995</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位B211室
+                </td>
+                <td>任付明</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-05-10</td>
+                <td></td>
+                <td>已签</td>
+            </tr>
+            <tr class='default_row_tr' onclick="changeColor(this)">
+                <td><input type='radio' name='selContractID' value='202100133994'></td>
+                <td>202100133994</td>
+                <td>出售合同</td>
+                <td>枣庄路399弄 <
+                    <金桥瑞仕花园>>地下车库幢-1层地下1层车位D112室
+                </td>
+                <td>蔡岭</td>
+                <td>31.17</td>
+                <td>250000</td>
+                <td>2021-05-10</td>
+                <td></td>
+                <td>已登记</td>
+            </tr>
+        </table>
+        <div class='datagrid-pager pagination'>
+            <table border='0' cellspacing='0' cellpadding='0'>
+                <tbody>
+                <tr>
+                    <td><a class='l-btn l-btn-small l-btn-plain ' href='javascript:void(0)' onclick='nextPage(1)'
+                           group=''> <span class='l-btn-left l-btn-icon-left'><span class='l-btn-text l-btn-empty'>&nbsp;</span><span
+                            class='l-btn-icon pagination-first'>&nbsp;</span></span></a></td>
+                    <td><a class='l-btn l-btn-small l-btn-plain ' href='javascript:void(0)' onclick='nextPage(1)'
+                           group=''> <span class='l-btn-left l-btn-icon-left'><span class='l-btn-text l-btn-empty'>&nbsp;</span><span
+                            class='l-btn-icon pagination-prev'>&nbsp;</span></span></a></td>
+                    <td>
+                        <div class='pagination-btn-separator'></div>
+                    </td>
+                    <td><a class='l-btn l-btn-small l-btn-plain ' href='javascript:void(0);' onclick='nextPage(3)'
+                           group=''> <span class='l-btn-left l-btn-icon-left'><span class='l-btn-text l-btn-empty'>&nbsp;</span><span
+                            class='l-btn-icon pagination-next'>&nbsp;</span></span></a></td>
+                    <td><a class='l-btn l-btn-small l-btn-plain ' href='javascript:void(0);' onclick='nextPage(270)'
+                           group=''> <span class='l-btn-left l-btn-icon-left'><span class='l-btn-text l-btn-empty'>&nbsp;</span><span
+                            class='l-btn-icon pagination-last'>&nbsp;</span></span></a></td>
+                    <td>
+                        <div class='pagination-btn-separator'></div>
+                    </td>
+                    <td><span style='padding-left: 6px;'>每页</span></td>
+                    <td><input type='text' id='PageSize' name='PageSize' size='1' maxlength='3'
+                               onkeyup='check_NaN(this);keySubmit(event);' onkeydown='check_NaN(this);keySubmit(event);'
+                               value='10'/></td>
+                    <td><span style='padding-right: 6px;'>条</span></td>
+                    <td><span style='padding-left: 6px;'>转到</span></td>
+                    <td><input type="text" id="CurrentPage" name="CurrentPage" size='1' maxlength='3'
+                               onkeyup='check_NaN(this);keySubmit(event);' onkeydown='check_NaN(this);keySubmit(event);'
+                               value="2"/></td>
+                    <td><span style='padding-right: 6px;'>页</span></td>
+                    <td><a class='l-btn l-btn-small l-btn-plain ' href='javascript:void(0);' onclick='GoToPage()'
+                           group=''> <span class='l-btn-left l-btn-icon-left'><span class='l-btn-text l-btn-empty'>&nbsp;</span><span
+                            class='l-btn-icon icon-search'>&nbsp;</span></span></a></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class='pagination-info'>第2页(共270页,2699条记录)</div>
+            <div style='clear: both;'></div>
+            <input type="hidden" id="RecordCount" name="RecordCount" value="2699"/>
+            <input type="hidden" id="PageCount" name="PageCount" value="270"/>
+            <input type="hidden" id="SortType" name="SortType" value=""/>
+            <input type="hidden" id="SortField" name="SortField" value=""/>
+        </div>
+
+
+    </form>
+    <div align="center">
+        <!-- <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'" style="width:120px" onclick="viewEarnest()">显示定金合同</a>&nbsp;&nbsp;
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'" style="width:100px" onclick="registerPrint()">登记表打印</a>&nbsp;&nbsp;
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'" style="width:120px" onclick="contractPrint()">合同打印预览</a>&nbsp;&nbsp;
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'" style="width:120px" onclick="payPrint()">缴款通知书打印</a>&nbsp;&nbsp; -->
+    </div>
+</div>
+</body>
+</html>

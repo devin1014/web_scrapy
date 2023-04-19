@@ -1,0 +1,315 @@
+body, html, ul, li, h1, h2, button, p {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6d6d6d;
+}
+
+input::-webkit-input-placeholder {
+    color: #999ea9;
+}
+
+.nav-box {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.nav {
+    width: 70%;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.nav-box p {
+    font-size: 12px;
+    color: #444;
+    font-weight: 100;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    padding: 3px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.logo a {
+    overflow: hidden;
+    display: block;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+    float: left;
+}
+
+.vip-nav-list {
+    float: right;
+}
+
+.vip-nav-list li {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.vip-nav-list li a:hover {
+    color: #3a87d6;
+}
+
+.vip-box {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bugad img {
+    width: 100%;
+}
+
+.vip-video {
+    margin: 20px 0;
+}
+
+.jiekou {
+    display: inline;
+}
+
+.vipinput {
+    font-size: 13px;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #606266;
+    height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 5px;
+    -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.vip-video .mobliePlayRe {
+    font-size: 12px;
+    color: #FF5722;
+    display: none;
+}
+
+#video-url {
+    width: 65%;
+}
+
+#playbtn {
+    color: #fff;
+    background-color: #85ce61;
+    text-transform: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.play-box-remain ul {
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 10px;
+    color: #545454;
+}
+
+.play-box {
+    height: 290px;
+    background-color: #ecf5ff;
+    border-radius: 6px 6px 0 0;
+}
+
+.play-box-remain {
+    padding: 10px;
+    height: 100%;
+}
+
+.play-box h2 {
+    font-size: 16px;
+    color: #f44b4b;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+
+.play-box p {
+    font-size: 14px;
+    color: #9c9c9c;
+    padding-bottom: 10px;
+}
+
+.play-box a {
+    font-size: 14px;
+    color: #76a6ff;
+}
+
+.play-box-copy {
+    border-radius: 0 0 6px 6px;
+    background-color: #f0f9eb;
+    padding: 13px 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #67c23a;
+}
+
+.play-list {
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.play-list li {
+    display: inline-block;
+    height: 60px;
+    width: 120px;
+    padding: 16px 14px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    position: relative;
+    padding: 16px 14px;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+.play-list li:hover {
+    border-color: rgba(82, 168, 236, .8);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6)
+}
+
+.play-list li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.play-list li img {
+    width: 100%;
+    margin: atuo;
+}
+
+.play-footer {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.play-footer strong {
+    font-weight: normal;
+}
+
+.play-footer a {
+    color: #888;
+    font-size: 13px;
+}
+
+.play-footer a:hover {
+    color: #76a6ff;
+}
+
+/*教程界面css*/
+.Tutorial {
+    max-width: 760px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.Tutorial h1 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.Tutorial span {
+    font-size: 12px;
+    color: #949494;
+    padding-right: 10px;
+}
+
+.Tutorial .readnum {
+    float: right;
+}
+
+.Tutorial-step h2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 0;
+    background: #eaeaea;
+    padding: 10px;
+    line-height: 22px;
+    overflow: hidden;
+    border-left: 4px solid #409df6;
+    border-radius: 4px;
+}
+
+.Tutorial-step p {
+    padding: 10px 5;
+    font-size: 13px;
+    background-color: #6395f0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.Tutorial-step img {
+    max-width: 70%;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.Tutorial-footer {
+    font-size: 12px;
+    color: #6d6d6d;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .nav, .vip-box {
+        width: 100%;
+    }
+
+    .mobliecss, #video-url {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #play-iframe {
+        max-height: 200px;
+    }
+
+    .play-box {
+        height: 345px;
+    }
+}

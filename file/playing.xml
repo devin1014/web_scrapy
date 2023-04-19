@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[正在上映的电影]]></title>
+        <link>https://movie.douban.com/cinema/nowplaying/</link>
+        <atom:link href="http://rsshub.app/douban/movie/playing" rel="self" type="application/rss+xml"/>
+        <description><![CDATA[正在上映的电影 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>i@diygod.me (DIYgod)</webMaster>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 02 Aug 2021 10:18:29 GMT</lastBuildDate>
+        <ttl>60</ttl>
+
+        <item>
+            <title><![CDATA[怒火·重案]]></title>
+            <description>
+                <![CDATA[标题：怒火·重案<br>评分：7.7<br>片长：128分钟<br>制片国家/地区：中国香港 中国大陆<br>导演：陈木胜<br>主演：甄子丹 / 谢霆锋 / 秦岚<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673412189.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/30174085</guid>
+            <link>https://movie.douban.com/subject/30174085</link>
+        </item>
+
+        <item>
+            <title><![CDATA[盛夏未来]]></title>
+            <description>
+                <![CDATA[标题：盛夏未来<br>评分：7.5<br>片长：115分钟<br>制片国家/地区：中国大陆<br>导演：陈正道<br>主演：张子枫 / 吴磊 / 郝蕾<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673420377.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35158124</guid>
+            <link>https://movie.douban.com/subject/35158124</link>
+        </item>
+
+        <item>
+            <title><![CDATA[白蛇2：青蛇劫起]]></title>
+            <description>
+                <![CDATA[标题：白蛇2：青蛇劫起<br>评分：7.3<br>片长：131分钟<br>制片国家/地区：中国大陆<br>导演：黄家康<br>主演：唐小喜 / 歪歪 / 魏超<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2655030796.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/30435124</guid>
+            <link>https://movie.douban.com/subject/30435124</link>
+        </item>
+
+        <item>
+            <title><![CDATA[大学]]></title>
+            <description>
+                <![CDATA[标题：大学<br>评分：8<br>片长：110分钟<br>制片国家/地区：中国大陆<br>导演：孙虹 王静 柯永权<br>主演：钱易 / 蔡峥 / 宋云天<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2667509890.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35470663</guid>
+            <link>https://movie.douban.com/subject/35470663</link>
+        </item>
+
+        <item>
+            <title><![CDATA[中国医生]]></title>
+            <description>
+                <![CDATA[标题：中国医生<br>评分：6.9<br>片长：129分钟<br>制片国家/地区：中国大陆<br>导演：刘伟强<br>主演：张涵予 / 袁泉 / 朱亚文<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2666591984.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35087699</guid>
+            <link>https://movie.douban.com/subject/35087699</link>
+        </item>
+
+        <item>
+            <title><![CDATA[燃野少年的天空]]></title>
+            <description>
+                <![CDATA[标题：燃野少年的天空<br>评分：4.5<br>片长：108分钟<br>制片国家/地区：中国大陆<br>导演：张一白 韩琰<br>主演：彭昱畅 / 许恩怡 / 张宥浩<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2667843404.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35256235</guid>
+            <link>https://movie.douban.com/subject/35256235</link>
+        </item>
+
+        <item>
+            <title><![CDATA[狼行者]]></title>
+            <description>
+                <![CDATA[标题：狼行者<br>评分：7.8<br>片长：100分钟<br>制片国家/地区：爱尔兰 英国 卢森堡 法国<br>导演：汤姆·摩尔 罗斯·斯图尔特<br>主演：霍纳·妮芙茜 / 伊娃·惠塔克 / 肖恩·宾<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2654733189.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/26694926</guid>
+            <link>https://movie.douban.com/subject/26694926</link>
+        </item>
+
+        <item>
+            <title><![CDATA[了不起的老爸]]></title>
+            <description>
+                <![CDATA[标题：了不起的老爸<br>评分：6.8<br>片长：104分钟<br>制片国家/地区：中国大陆<br>导演：周青元<br>主演：王砚辉 / 张宥浩 / 龚蓓苾<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2654767767.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/30391228</guid>
+            <link>https://movie.douban.com/subject/30391228</link>
+        </item>
+
+        <item>
+            <title><![CDATA[1921]]></title>
+            <description>
+                <![CDATA[标题：1921<br>评分：6.7<br>片长：137分钟<br>制片国家/地区：中国大陆<br>导演：黄建新 郑大圣<br>主演：黄轩 / 倪妮 / 王仁君<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2665014115.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35125443</guid>
+            <link>https://movie.douban.com/subject/35125443</link>
+        </item>
+
+        <item>
+            <title><![CDATA[困在时间里的父亲]]></title>
+            <description>
+                <![CDATA[标题：困在时间里的父亲<br>评分：8.7<br>片长：97分钟<br>制片国家/地区：英国 法国<br>导演：佛罗莱恩·泽勒<br>主演：安东尼·霍普金斯 / 奥利维娅·科尔曼 / 马克·加蒂斯<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2654915204.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/33432655</guid>
+            <link>https://movie.douban.com/subject/33432655</link>
+        </item>
+
+        <item>
+            <title><![CDATA[革命者]]></title>
+            <description>
+                <![CDATA[标题：革命者<br>评分：7.5<br>片长：121分钟<br>制片国家/地区：中国大陆<br>导演：徐展雄<br>主演：张颂文 / 李易峰 / 佟丽娅<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2666303410.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35288767</guid>
+            <link>https://movie.douban.com/subject/35288767</link>
+        </item>
+
+        <item>
+            <title><![CDATA[我的父亲焦裕禄]]></title>
+            <description>
+                <![CDATA[标题：我的父亲焦裕禄<br>评分：0<br>片长：108分钟<br>制片国家/地区：中国大陆<br>导演：范元<br>主演：郭晓东 / 丁柳元 / 严晓频<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673163209.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/35132974</guid>
+            <link>https://movie.douban.com/subject/35132974</link>
+        </item>
+
+        <item>
+            <title><![CDATA[贝肯熊2：金牌特工]]></title>
+            <description>
+                <![CDATA[标题：贝肯熊2：金牌特工<br>评分：0<br>片长：95分钟<br>制片国家/地区：中国大陆<br>导演：张扬<br>主演：汤水雨 / 孟子焱 / 徐佳琦<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2654242565.jpg" referrerpolicy="no-referrer">]]></description>
+            <guid isPermaLink="false">https://movie.douban.com/subject/33437509</guid>
+            <link>https://movie.douban.com/subject/33437509</link>
+        </item>
+
+        <item>
+            <title><![CDATA[俑之城]]></title>
+            <description>
+                <![CDATA[标题：俑之城<br>评分：6.1<br>片长：111分钟<br>制片国家/地区：中国大陆<br>导演：丁亮 林永长<br>主演：朱光祖 / 张茗 / 周子瑜<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2656628179.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30336307</guid>
+            <link>https://movie.douban.com/subject/30336307</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[济公之降龙降世]]></title>
+            <description>
+                <![CDATA[标题：济公之降龙降世<br>评分：4.9<br>片长：92分钟<br>制片国家/地区：中国大陆<br>导演：刘志江 乔彧<br>主演：朱婧 / 白文显 / 李扬<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2660158329.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35489675</guid>
+            <link>https://movie.douban.com/subject/35489675</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[直立象传说]]></title>
+            <description>
+                <![CDATA[标题：直立象传说<br>评分：0<br>片长：98分钟<br>制片国家/地区：新西兰 中国大陆<br>导演：黄军 柯比<br>主演：特穆拉·莫里森 / 露西·劳莱丝 / 约翰·瑞斯-戴维斯<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2668245076.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/26371812</guid>
+            <link>https://movie.douban.com/subject/26371812</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[天堂电影院]]></title>
+            <description>
+                <![CDATA[标题：天堂电影院<br>评分：9.2<br>片长：124分钟(中国大陆)<br>制片国家/地区：意大利 法国<br>导演：朱塞佩·托纳多雷<br>主演：菲利普·努瓦雷 / 雅克·贝汉 / 马克·莱昂纳蒂<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1291828</guid>
+            <link>https://movie.douban.com/subject/1291828</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[二哥来了怎么办]]></title>
+            <description>
+                <![CDATA[标题：二哥来了怎么办<br>评分：4.5<br>片长：<br>制片国家/地区：中国大陆<br>导演：郑芬芬<br>主演：胡先煦 / 邓恩熙 / 郑伟<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2664990775.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30330751</guid>
+            <link>https://movie.douban.com/subject/30330751</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[新大头儿子和小头爸爸4：完美爸爸]]></title>
+            <description>
+                <![CDATA[标题：新大头儿子和小头爸爸4：完美爸爸<br>评分：5<br>片长：80分钟<br>制片国家/地区：中国大陆<br>导演：何澄 刘可欣<br>主演：董浩 / 鞠萍 / 陈怡<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2652037846.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34913583</guid>
+            <link>https://movie.douban.com/subject/34913583</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[当男人恋爱时]]></title>
+            <description>
+                <![CDATA[标题：当男人恋爱时<br>评分：6.6<br>片长：115分钟<br>制片国家/地区：中国台湾 中国香港<br>导演：殷振豪<br>主演：邱泽 / 许玮甯 / 蔡振南<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2656407373.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35198827</guid>
+            <link>https://movie.douban.com/subject/35198827</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[你好世界]]></title>
+            <description>
+                <![CDATA[标题：你好世界<br>评分：7<br>片长：97分钟<br>制片国家/地区：日本<br>导演：伊藤智彦<br>主演：北村匠海 / 松坂桃李 / 滨边美波<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2654818960.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30401194</guid>
+            <link>https://movie.douban.com/subject/30401194</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[情书]]></title>
+            <description>
+                <![CDATA[标题：情书<br>评分：8.9<br>片长：117分钟<br>制片国家/地区：日本<br>导演：岩井俊二<br>主演：中山美穗 / 丰川悦司 / 酒井美纪<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1292220</guid>
+            <link>https://movie.douban.com/subject/1292220</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[守岛人]]></title>
+            <description>
+                <![CDATA[标题：守岛人<br>评分：7.4<br>片长：125分钟<br>制片国家/地区：中国大陆<br>导演：陈力<br>主演：刘烨 / 宫哲 / 侯勇<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2660246504.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34947776</guid>
+            <link>https://movie.douban.com/subject/34947776</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[巧虎魔法岛历险记]]></title>
+            <description>
+                <![CDATA[标题：巧虎魔法岛历险记<br>评分：0<br>片长：80分钟<br>制片国家/地区：中国大陆<br>导演：河村友宏<br>主演：李晔 / 沈达威 / 罗玉婷<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2668649931.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35445373</guid>
+            <link>https://movie.douban.com/subject/35445373</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[人之怒]]></title>
+            <description>
+                <![CDATA[标题：人之怒<br>评分：6.8<br>片长：115分钟(中国大陆)<br>制片国家/地区：美国 英国<br>导演：盖·里奇<br>主演：杰森·斯坦森 / 霍特·麦克卡兰尼 / 罗奇·威廉姆斯<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2642842673.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/27046740</guid>
+            <link>https://movie.douban.com/subject/27046740</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[终极代码]]></title>
+            <description>
+                <![CDATA[标题：终极代码<br>评分：0<br>片长：92分钟<br>制片国家/地区：中国大陆<br>导演：吴治廷<br>主演：吴治廷 / 孟璐 / 大卫·贝利<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2668577194.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/27191370</guid>
+            <link>https://movie.douban.com/subject/27191370</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[红船]]></title>
+            <description>
+                <![CDATA[标题：红船<br>评分：0<br>片长：111分钟<br>制片国家/地区：中国大陆<br>导演：沈东 王德庆<br>主演：侯京健 / 陈都灵 / 王志飞<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2657036711.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35289419</guid>
+            <link>https://movie.douban.com/subject/35289419</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[三湾改编]]></title>
+            <description>
+                <![CDATA[标题：三湾改编<br>评分：0<br>片长：112分钟<br>制片国家/地区：中国大陆<br>导演：杨虎<br>主演：侯京健 / 郭家豪 / 单仕杰<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2669678399.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35400472</guid>
+            <link>https://movie.douban.com/subject/35400472</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[大城大楼]]></title>
+            <description>
+                <![CDATA[标题：大城大楼<br>评分：0<br>片长：89分钟<br>制片国家/地区：中国大陆<br>导演：谢鸣晓<br>主演：陈奕龙 / 李媛 / 佟瑞欣<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2659739896.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35173386</guid>
+            <link>https://movie.douban.com/subject/35173386</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[战狼2]]></title>
+            <description>
+                <![CDATA[标题：战狼2<br>评分：7.1<br>片长：123分钟<br>制片国家/地区：中国大陆<br>导演：吴京<br>主演：吴京 / 弗兰克·格里罗 / 吴刚<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2494701965.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/26363254</guid>
+            <link>https://movie.douban.com/subject/26363254</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[拯救甜甜圈：时空大营救]]></title>
+            <description>
+                <![CDATA[标题：拯救甜甜圈：时空大营救<br>评分：0<br>片长：84分钟<br>制片国家/地区：美国 中国大陆<br>导演：大卫·西尔弗曼 雷蒙德·S·佩尔西<br>主演：亚当·德维尼 / 蕾切尔·布鲁姆 / 郑肯<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2668221106.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35081773</guid>
+            <link>https://movie.douban.com/subject/35081773</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[红海行动]]></title>
+            <description>
+                <![CDATA[标题：红海行动<br>评分：8.2<br>片长：138分钟<br>制片国家/地区：中国大陆 中国香港<br>导演：林超贤<br>主演：张译 / 黄景瑜 / 海清<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2514119443.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/26861685</guid>
+            <link>https://movie.douban.com/subject/26861685</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[站着等你三千年]]></title>
+            <description>
+                <![CDATA[标题：站着等你三千年<br>评分：0<br>片长：102分钟<br>制片国家/地区：中国大陆<br>导演：刘云舟<br>主演：王琪 / 李鑫雨 / 邵夏<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2672730134.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35522191</guid>
+            <link>https://movie.douban.com/subject/35522191</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[天工苏作]]></title>
+            <description>
+                <![CDATA[标题：天工苏作<br>评分：7.3<br>片长：90分钟<br>制片国家/地区：中国大陆<br>导演：孙曾田<br>主演：李立宏<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2657618512.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35493879</guid>
+            <link>https://movie.douban.com/subject/35493879</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[白蛇传·情]]></title>
+            <description>
+                <![CDATA[标题：白蛇传·情<br>评分：8.2<br>片长：101分钟<br>制片国家/地区：中国大陆<br>导演：张险峰<br>主演：曾小敏 / 文汝清 / 朱红星<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2645106865.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34825976</guid>
+            <link>https://movie.douban.com/subject/34825976</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[七月的舞步]]></title>
+            <description>
+                <![CDATA[标题：七月的舞步<br>评分：0<br>片长：90分钟<br>制片国家/地区：中国大陆<br>导演：曹岸<br>主演：张予曦 / 黄小蕾 / 黄景行<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2672954030.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/33428740</guid>
+            <link>https://movie.douban.com/subject/33428740</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[普罗米亚]]></title>
+            <description>
+                <![CDATA[标题：普罗米亚<br>评分：7.9<br>片长：111分钟<br>制片国家/地区：日本<br>导演：今石洋之<br>主演：松山研一 / 早乙女太一 / 堺雅人<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2652044770.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/27080656</guid>
+            <link>https://movie.douban.com/subject/27080656</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[哆啦A梦：伴我同行2]]></title>
+            <description>
+                <![CDATA[标题：哆啦A梦：伴我同行2<br>评分：7.2<br>片长：96分钟<br>制片国家/地区：日本<br>导演：八木龙一 山崎贵<br>主演：水田山葵 / 大原惠美 / 嘉数由美<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2641407963.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34913671</guid>
+            <link>https://movie.douban.com/subject/34913671</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[天下无拐]]></title>
+            <description>
+                <![CDATA[标题：天下无拐<br>评分：0<br>片长：102分钟<br>制片国家/地区：中国大陆<br>导演：张鑫<br>主演：吕良伟 / 郑昊 / 王婉娟<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2641726453.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34961041</guid>
+            <link>https://movie.douban.com/subject/34961041</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[湄公河行动]]></title>
+            <description>
+                <![CDATA[标题：湄公河行动<br>评分：8<br>片长：124分钟<br>制片国家/地区：中国大陆 中国香港<br>导演：林超贤<br>主演：张涵予 / 彭于晏 / 孙淳<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2380677316.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/25815034</guid>
+            <link>https://movie.douban.com/subject/25815034</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[再见汪先森]]></title>
+            <description>
+                <![CDATA[标题：再见汪先森<br>评分：0<br>片长：98分钟<br>制片国家/地区：中国大陆<br>导演：王大治<br>主演：萧子墨 / 张国强 / 吕晓霖<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2663531702.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30432283</guid>
+            <link>https://movie.douban.com/subject/30432283</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[摇摆神探]]></title>
+            <description>
+                <![CDATA[标题：摇摆神探<br>评分：0<br>片长：84分钟<br>制片国家/地区：中国大陆<br>导演：朱江 万延冲 高松涛<br>主演：邵彤 / 王薇 / 季骜杰<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2669144765.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30463527</guid>
+            <link>https://movie.douban.com/subject/30463527</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[地道战]]></title>
+            <description>
+                <![CDATA[标题：地道战<br>评分：8.2<br>片长：101分钟<br>制片国家/地区：中国大陆<br>导演：任旭东<br>主演：朱龙广 / 张勇手 / 刘秀杰<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2551228401.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/3033864</guid>
+            <link>https://movie.douban.com/subject/3033864</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[狼牙山五壮士]]></title>
+            <description>
+                <![CDATA[标题：狼牙山五壮士<br>评分：7.3<br>片长：82分钟<br>制片国家/地区：中国大陆<br>导演：史文炽<br>主演：李长华 / 高保成 / 李力<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532680861.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1464618</guid>
+            <link>https://movie.douban.com/subject/1464618</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[英雄儿女]]></title>
+            <description>
+                <![CDATA[标题：英雄儿女<br>评分：7.9<br>片长：109分钟<br>制片国家/地区：中国大陆<br>导演：武兆堤<br>主演：田方 / 周文彬 / 刘尚娴<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1344007523.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1438091</guid>
+            <link>https://movie.douban.com/subject/1438091</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[鸡毛信]]></title>
+            <description>
+                <![CDATA[标题：鸡毛信<br>评分：7.3<br>片长：76分钟<br>制片国家/地区：中国大陆<br>导演：石挥<br>主演：蔡元元 / 蔡安安 / 舒适<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2327156580.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1461981</guid>
+            <link>https://movie.douban.com/subject/1461981</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[党的女儿]]></title>
+            <description>
+                <![CDATA[标题：党的女儿<br>评分：7<br>片长：90分钟<br>制片国家/地区：中国大陆<br>导演：林农<br>主演：田华 / 李林 / 陈戈<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2541726755.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1433112</guid>
+            <link>https://movie.douban.com/subject/1433112</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[金沙江畔]]></title>
+            <description>
+                <![CDATA[标题：金沙江畔<br>评分：6.9<br>片长：94分钟<br>制片国家/地区：中国大陆<br>导演：傅超武<br>主演：崔超明 / 冯喆<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2521884655.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1480411</guid>
+            <link>https://movie.douban.com/subject/1480411</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[潜艇总动员8：地心游记]]></title>
+            <description>
+                <![CDATA[标题：潜艇总动员8：地心游记<br>评分：0<br>片长：85分钟<br>制片国家/地区：中国大陆<br>导演：张超<br>主演：姚珊 / 筱柒 / 王琪<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2636831662.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34948442</guid>
+            <link>https://movie.douban.com/subject/34948442</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[寻访马克思]]></title>
+            <description>
+                <![CDATA[标题：寻访马克思<br>评分：0<br>片长：99分钟<br>制片国家/地区：中国大陆<br>导演：郝蕴<br>主演：<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522133401.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/25713306</guid>
+            <link>https://movie.douban.com/subject/25713306</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[从奴隶到将军]]></title>
+            <description>
+                <![CDATA[标题：从奴隶到将军<br>评分：7<br>片长：160分钟<br>制片国家/地区：中国大陆<br>导演：王炎<br>主演：杨在葆 / 吴喜千 / 冯淳超<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2602780540.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1437321</guid>
+            <link>https://movie.douban.com/subject/1437321</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[烈火中永生]]></title>
+            <description>
+                <![CDATA[标题：烈火中永生<br>评分：7.7<br>片长：138分钟<br>制片国家/地区：中国大陆<br>导演：水华<br>主演：赵丹 / 于蓝 / 张平<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1322238680.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/1807966</guid>
+            <link>https://movie.douban.com/subject/1807966</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[怒潮]]></title>
+            <description>
+                <![CDATA[标题：怒潮<br>评分：7<br>片长：90分钟<br>制片国家/地区：中国大陆<br>导演：史文炽<br>主演：张平 / 周凤山 / 关淑贞<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2580530373.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/3348593</guid>
+            <link>https://movie.douban.com/subject/3348593</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[流浪猫鲍勃2：鲍勃的礼物]]></title>
+            <description>
+                <![CDATA[标题：流浪猫鲍勃2：鲍勃的礼物<br>评分：0<br>片长：92分钟<br>制片国家/地区：英国<br>导演：查尔斯·马丁·史密斯<br>主演：卢克·崔德威 / 安娜·威尔逊-琼斯 / 妮娜·瓦迪娅<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2674289979.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34884711</guid>
+            <link>https://movie.douban.com/subject/34884711</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[危险记忆]]></title>
+            <description>
+                <![CDATA[标题：危险记忆<br>评分：0<br>片长：99分钟<br>制片国家/地区：中国大陆<br>导演：郭大群<br>主演：甘婷婷 / 李滨 / 乔乔<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2575893421.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/34906768</guid>
+            <link>https://movie.douban.com/subject/34906768</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[我的爸爸是森林之王2]]></title>
+            <description>
+                <![CDATA[标题：我的爸爸是森林之王2<br>评分：0<br>片长：89分钟<br>制片国家/地区：比利时 法国<br>导演：杰里米·德格鲁森 本·斯塔森<br>主演：罗杰·克莱格·史密斯 / 杰斯·诺曼 / 戴维·洛奇<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2674166864.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35177259</guid>
+            <link>https://movie.douban.com/subject/35177259</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[西游记之再世妖王]]></title>
+            <description>
+                <![CDATA[标题：西游记之再世妖王<br>评分：0<br>片长：95分钟<br>制片国家/地区：中国大陆<br>导演：王云飞<br>主演：边江 / 张磊 / 蔡海婷<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673991933.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/26818326</guid>
+            <link>https://movie.douban.com/subject/26818326</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[长津湖]]></title>
+            <description>
+                <![CDATA[标题：长津湖<br>评分：0<br>片长：185分钟<br>制片国家/地区：中国大陆<br>导演：陈凯歌 徐克 林超贤<br>主演：吴京 / 易烊千玺 / 段奕宏<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673706725.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/25845392</guid>
+            <link>https://movie.douban.com/subject/25845392</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[深爱]]></title>
+            <description>
+                <![CDATA[标题：深爱<br>评分：0<br>片长：<br>制片国家/地区：中国大陆<br>导演：孙周 张洋<br>主演：张丹峰 / 王智 / 张一鸣<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2663099539.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/27624770</guid>
+            <link>https://movie.douban.com/subject/27624770</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[皮皮虾总裁]]></title>
+            <description>
+                <![CDATA[标题：皮皮虾总裁<br>评分：0<br>片长：91分钟<br>制片国家/地区：中国大陆<br>导演：陈小雨<br>主演：孙苏雅 / 金阳 / 杜旭东<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2544788692.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30312070</guid>
+            <link>https://movie.douban.com/subject/30312070</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[五个扑水的少年]]></title>
+            <description>
+                <![CDATA[标题：五个扑水的少年<br>评分：0<br>片长：111分钟<br>制片国家/地区：中国大陆<br>导演：宋灏霖<br>主演：辛云来 / 冯祥琨 / 李孝谦<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2673700631.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/35030151</guid>
+            <link>https://movie.douban.com/subject/35030151</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[皮皮鲁与鲁西西之罐头小人]]></title>
+            <description>
+                <![CDATA[标题：皮皮鲁与鲁西西之罐头小人<br>评分：0<br>片长：94分钟<br>制片国家/地区：中国大陆<br>导演：于飞<br>主演：洪悦熙 / 庄则熙 / 田雨<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2668941343.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/33973077</guid>
+            <link>https://movie.douban.com/subject/33973077</link>
+
+
+        </item>
+
+        <item>
+            <title><![CDATA[忠犬流浪记]]></title>
+            <description>
+                <![CDATA[标题：忠犬流浪记<br>评分：0<br>片长：90分钟<br>制片国家/地区：中国大陆<br>导演：桑凯·维杜朗<br>主演：叮当 / 应昊茗 / 王硕<br><img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2567862389.jpg" referrerpolicy="no-referrer">]]></description>
+
+            <guid isPermaLink="false">https://movie.douban.com/subject/30394018</guid>
+            <link>https://movie.douban.com/subject/30394018</link>
+
+
+        </item>
+
+    </channel>
+</rss>
